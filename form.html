@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" type="text/css" href="checkbox.css">
+</head>
+<body>
+	<h1>йцукенгшщзхждлорпавы</h1>
+	<div class="form">
+	
+	<ul class="list">
+		<li class="list__item">
+			<input id="apartment" class="radio-btn" type="radio" name="one" value="apartment">
+			<label for="apartment" class="label">Квартиры</label>
+		</li>
+		<li class="list__item">
+			<input id="room" class="radio-btn" type="radio" name="one" value="room">
+			<label for="room" class="label">Комнаты</label>
+		</li>
+		<li class="list__item">
+			<input id="house" class="radio-btn" type="radio" name="one" value="house">
+			<label for="house" class="label">Дома</label>
+		</li>
+		<li class="list__item">
+			<input id="cottage" class="radio-btn" type="radio" name="one" value="cottage">
+			<label for="cottage" class="label">Дачи</label>
+		</li>
+		<li class="list__item">
+			<input id="land" class="radio-btn" type="radio" name="one" value="land">
+			<label for="land" class="label">Земельные участки</label>
+		</li>
+		<li class="list__item">
+			<input id="garage" class="radio-btn" type="radio" name="one" value="garage">
+			<label for="garage" class="label">Гаражи</label>
+		</li>
+		<li class="list__item">
+			<input id="commercial" class="radio-btn" type="radio" name="one" value="commercial">
+			<label for="commercial" class="label">Коммерческая недвижимость</label>
+		</li>
+	</ul>
+	<input type="" name="">
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		var radio = $('input[name=one]:checked').val();
+		console.log(radio);
+	</script>
+
+</body>
+</html>
